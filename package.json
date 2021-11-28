@@ -1,0 +1,40 @@
+{
+  "name": "dylanleon-homepage",
+  "version": "1.0.0",
+  "description": "Dylan's digital portfolio website",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dl-ghub/dylanleon-homepage.git"
+  },
+  "keywords": [],
+  "author": "Dylan Leon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dl-ghub/dylanleon-homepage/issues"
+  },
+  "homepage": "https://github.com/dl-ghub/dylanleon-homepage#readme",
+  "dependencies": {
+    "@chakra-ui/icons": "^1.1.1",
+    "@chakra-ui/react": "^1.7.2",
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@fontsource/be-vietnam": "^4.5.0",
+    "@fontsource/cormorant-garamond": "^4.5.0",
+    "framer-motion": "^4.1.17",
+    "next": "^12.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-next": "^12.0.4",
+    "prettier": "^2.5.0"
+  }
+}
