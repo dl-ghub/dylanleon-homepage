@@ -116,17 +116,20 @@ const Navbar = props => {
                 <NextLink href="/" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
-                <NextLink href="/works" passHref>
+                <NextLink href="#" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
-                <NextLink href="/posts" passHref>
+                <NextLink href="#" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
                 </NextLink>
+                <MenuItem as={Link} href="https://github.com/dl-ghub">
+                  GitHub
+                </MenuItem>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href="https://www.linkedin.com/in/dylanrleon/"
                 >
-                  View Source
+                  LinkedIn
                 </MenuItem>
               </MenuList>
             </Menu>
