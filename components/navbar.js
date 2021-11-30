@@ -61,7 +61,7 @@ const Navbar = props => {
         paddingRight={{ xl: 6, md: 6 }}
       >
         <Flex align="center" mr={5}>
-          <Heading as="h1" size="lg" letterSpacing={"tighter"}>
+          <Heading as="h1" size="lg" letterSpacing={"normal"}>
             <Logo />
           </Heading>
         </Flex>
