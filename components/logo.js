@@ -4,9 +4,9 @@ import Link from "next/link"
 import styled from "@emotion/styled"
 
 const LogoBox = styled.span`
-  font-weight: regular;
-  font-size: 16px;
-  font-family: Be Vietnam;
+  font-weight: 550;
+  font-size: 36px;
+  font-family: Inter;
   display: inline-flex;
   align-items: center;
   height: 30px;
@@ -20,7 +20,7 @@ const Logo = () => {
     <Link href="/">
       <a>
         <LogoBox>
-          <Text>Dylan Leon</Text>
+          <Text>dl.</Text>
         </LogoBox>
       </a>
     </Link>
